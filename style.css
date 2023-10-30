@@ -1,16 +1,32 @@
 *{
     box-sizing: border-box !important;
+    font-family: 'Kanit', sans-serif;
 }
 
 body{
-    height: 100dvh;
+    height: 100%;
     background-color: #0b1622 !important;
+}
+img {
+    width: 100%;
+}
+.border-none{
+    border: 0px !important;
 }
 .bg-moon{
     background-color: #0b1622 !important;
 }
 .list-borders{
-    border: 1px solid black !important;
+    border: 1px solid white !important;
     border-radius: 4px;
     padding: 10px 15px !important;
+    color: white;
+}
+.bgbanner{
+    background: linear-gradient(to top, rgba(0,0,0,0.8) 0, rgba(0, 0, 0, 0.829) 70%, rgb(0, 0, 0) 100%),url(img/bannerslider2.png);
+    background-position: center;
+    height: 60dvh;
+}
+.slider-container{
+    width: 80% !important;
 }
