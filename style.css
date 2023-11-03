@@ -68,3 +68,7 @@ img {
 .container-video-border{
     border-bottom: 1px solid white ;
 }
+.form-container{
+    width: 70% !important;
+    height: 69dvh !important;
+}
